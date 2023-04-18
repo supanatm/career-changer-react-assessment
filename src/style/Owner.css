@@ -1,0 +1,40 @@
+.own-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.own-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.own-top h1 {
+    padding: 3rem;
+}
+
+.own-top img {
+    width: 300px;
+    border-radius: 8px;
+}
+
+.own-top img:hover {
+    scale: 1.2;
+    transition: ease-in-out 0.4s;
+}
+
+.own-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.own-bottom h3 {
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.own-bottom p {
+    text-align: center;
+}
